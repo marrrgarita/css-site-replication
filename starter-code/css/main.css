@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png")repeat-x;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  overflow: auto;
+}
+
+.phone-image {
+  float: left;
+  width: 30%;
+}
+
+.phone-image > img {
+  width: 100%;
+}
+
+.details,
+.logo {
+  float: left;
+  width: 45%;
+  margin-left: 40px;
+}
+
+.logo {
+  position: relative;
+  width: 51%;
+}
+
+.logo > a {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: #d6d6d6;
+  background: #306390;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px outset;
+}
+
+h2 {
+  width: 50%;
+  color: #06365f;
+}
+
+.details {
+  background: url("../images/frame.png") no-repeat;
+  background-size: 100%;
+  padding: 30px 40px;
+  position: relative;
+  font-size: 20px;
+}
+
+.badges > img {
+  padding-right: 10px;
+}
+
+footer {
+  width: 55%;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar {
+  width: 75%;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.navlinks > li {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0 10px;
+  color: #1c5380;
+}
+
+#copyright {
+  color: grey;
+  font-weight: normal;
 }
